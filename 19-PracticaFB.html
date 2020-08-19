@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Facebook - Inicia sesión o regístrate</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap-4.5.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./styleFB.css" media="screen">
+    <script
+      src="https://kit.fontawesome.com/fa821c9639.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-light">
+      <div class="container d-flex mt-5">
+               <!-- lado izquierdo -->
+        <div class="col-6 m-5">
+            <div>
+                <h3 class="ml-0" id="logo">facebook</h3>
+            </div>
+            <p class="h2 font-weight-normal">Inicios de sesión recientes</p>
+            <p class="text-muted">Haz click en tu foto o agrega otra cuenta.</p>
+            <!-- Fotos para iniciar sesión -->
+            <div class="card-columns">
+                <div class="card m-2 cardsInicio"  data-toggle="tooltip"
+                title="Luis"
+                data-placement="bottom">
+                    <img src="./img/yo.jpg" alt="Producto" class="card-img-top">
+                        <!-- Footer de card -->
+                        <div class="card-footer p-0">
+                          <p class="text-center">Luis</p>
+                        </div>
+                </div>
+                <div class="card m-2 cardsInicio">
+                    <img src="./img/azul.jpeg" alt="Producto" class="card-img-top">
+                        <!-- Footer de card -->
+                        <div class="card-footer p-0">
+                          <p class="text-center text-primary">Agregar cuenta</p>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+             <!-- lado derecho -->
+        <div class="col-6"> 
+                <!-- card con forms para ingresar datos -->
+                <div class="card m-3 shadow-lg curvas w-75" id="cardForm">
+                  <div class="card-body">
+                      <!-- usuario y contraseña -->
+                      <form>
+                        <div class="form-row">
+                            <div class="form-group col-12">
+                              <input
+                                type="email"
+                                id="user"
+                                class="form-control shadow-sm curvas altos"
+                                placeholder="Correo electrónico o número de teléfono">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-12">
+                                <input type="password" 
+                                class="form-control shadow-sm curvas altos" 
+                                placeholder="Contraseña">
+                            </div>
+                        </div>
+                      </form>
+                      <!-- parte final del card (botones y enlace) -->
+                        <a href="./20-FBparte2.html" class="btn btn-primary btn-block curvas botones altos" aria-pressed="true">Iniciar sesión</a>
+
+                      <div class="text-center mt-3">
+                          <a href="">¿Olvidaste tu contraseña?</a>
+                      </div>
+                      <hr>
+                      <div class="m-3 text-center">
+                          <button class="btn btn-success curvas botones altos" id="crear">Crear cuenta nueva</button>
+                      </div>
+                   
+                  </div>
+                </div>
+
+            <div class="w-75 text-center">
+                <p><a id="pagina">Crea una página</a> para un personaje público, un grupo de música o un negocio.</p>
+            </div>
+
+        </div>
+      </div>
+
+      <footer class="bg-white p-5">
+        <small class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non est magnam a sint quisquam placeat at cumque fugit natus numquam!</small>
+        <hr>
+        <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolorum maiores pariatur, dolores sit, dolorem sapiente earum dicta numquam labore nemo fugit error eum iusto itaque sint soluta illo quidem.</small>
+    </footer>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="./bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

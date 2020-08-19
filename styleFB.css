@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* elementos */
+nav {
+    position: fixed;
+    background: #242526;
+}
+
+body {
+    background: #18191a;
+}
+
+h5 {
+    color: rgb(216, 207, 207);
+}
+
+hr {
+    background: gray;
+}
+
+#chat li:hover {
+    background: #48494b;
+}
+
+.screenL ul {
+    list-style: none;
+}
+
+.screenL li:hover {
+    background: #48494b;
+}
+
+.hoverable div:hover {
+    background: #48494b;
+}
+
+
+/* id's */
+#logo {
+    color: #1877f2;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+#pagina {
+    color: black;
+    font-weight: bold;
+}
+
+#crear {
+    background-color: #42b72a;
+}
+
+#cardForm {
+    width: 396px;
+    height: 345px;
+}
+
+#btnInicio {
+    border-bottom: solid 3px #2d88ff;
+}
+
+#logoFB {
+    font-size: 40px;
+    color: #2d88ff;
+}
+
+#padreDiv {
+    display: flex;
+}
+
+
+#lateralNav {
+    position: absolute;
+    right: 0;
+}
+
+#fotoEstado {
+    width: 8%;
+    height: 8%;
+    border-radius: 35%;
+    margin: 1vh 1vh;
+}
+
+#btnInput {
+    width: 85%;
+}
+
+#chat {
+    color: honeydew;
+    list-style: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    #centralNav, #barra{
+        display: none;
+    }
+
+    #stories {
+        width: 50%;
+        height: 20%;
+    }
+
+    .fotoPub {
+        width: 2rem;
+        height: 2rem;
+    }
+    .puntos {
+        display: none;
+     }
+
+    .screenL, .screenR {
+        display: none;
+    }
+
+}
+
+
+
+/* clases */
+.puntos {
+   position: absolute;
+   font-size: 2em;
+   right: 7rem;
+}
+
+.puntos:hover {
+    background-color: #48494b;
+}
+
+.navCentral {
+    font-size: 1.5rem;
+}
+
+.fotoPub {
+    border-radius: 50%;
+    width: 3rem;
+}
+
+.fotito {
+    width: 2rem;
+    height: 2rem;
+}
+
+.curvas {
+    border-radius: 6px;
+}
+
+.cardsInicio {
+    width: 160px;
+    height: 160px;
+}
+
+.botones {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.botonesLat {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.btnNavLat {
+    border-radius: 50%;
+    background-color: #333436;
+}
+
+.btnNavLat:hover {
+    background-color:#48494b;
+}
+.altos {
+    height: 52px;
+}
+
+.enlacesNav {
+    color: rgb(182, 177, 177);
+}
+
+.enlacesNav:hover {
+    color: rgb(182, 177, 177);
+    background-color: #b1b7bd7c;
+}
+
+.tooltip-inner {
+    background: rgba(255, 255, 255, 0.555);
+    color: black
+}
+
+.tooltip.bs-tooltip-auto[x-placement^=bottom] .arrow::before, .tooltip.bs-tooltip-bottom .arrow::before {
+    border-bottom-color: #343a40;
+}
+
+.footerCard {
+    font-size: smaller;
+    width: 100%;
+    padding: 0;
+
+}
+
+.imgHist {
+    width: 90rem;
+    height: 150rem;
+}
+
+.fondoGris {
+    background: #242526;
+}
+
+.ochenta {
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+.ochenta2 {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+.publicaciones {
+    width: auto;
+    height: auto;
+}
+
+.anuncio {
+    width: 80%;
+    height: 20%;
+}
+
+.anuncio img {
+    width: 5rem;
+    height: 5rem;
+}
+.anuncio:hover {
+    background: gray;
+}
+
+.screenL {
+   height: 28rem;
+   overflow: auto;
+}
+
+.screenR {
+    height: 50rem;
+    overflow: auto;
+}
+
+/* scrolls */
+.screenL::-webkit-scrollbar {
+    width: 5px;
+    background: #48494b;
+}
+
+.screenR::-webkit-scrollbar {
+    width: 5px;
+    background: black;
+}
+
+.screenL::-webkit-scrollbar-thumb, .screenR::-webkit-scrollbar-thumb {
+    border-radius: 20%;
+    background: #48494b;
+}
